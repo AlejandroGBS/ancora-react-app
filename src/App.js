@@ -5,7 +5,6 @@ import { Modal } from "./components/Modal";
 import { Menu } from "./components/Menu";
 import { ReactDimmer } from "react-dimmer";
 import { Routes, Route } from "react-router-dom";
-import HomePage from "./pages/HomePage";
 
 export default function App() {
   const [isModalOpen, setModal] = useState(false);
